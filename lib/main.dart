@@ -1,7 +1,8 @@
+import 'package:business/business.dart';
 import 'package:flutter/material.dart';
-
-import 'ui/my_app.dart';
+import 'my_app.dart';
 
 void main() {
+  initializeBlocks();
   runApp(const MyApp());
 }
